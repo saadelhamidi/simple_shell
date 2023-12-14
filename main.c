@@ -31,6 +31,10 @@ int main(void)
 			}
 		}
 		prompt[strcspn(prompt, "\n")] = '\0';
+		if (strcmp(prompt, "exit") == 0)
+		{
+			break;
+		}
 		token = strtok(prompt, " ");
 		i = 0;
 		while (token != NULL)
