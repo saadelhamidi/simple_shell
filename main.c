@@ -5,7 +5,7 @@
  *
  * Return: Always 0 (Success)
  */
-
+extern char **environ;
 int main(void)
 {
 	char *prompt = NULL;
@@ -49,7 +49,7 @@ int main(void)
 
 		if (pid == 0)
 		{
-			if (execve(args[0], args, NULL) == -1)
+			if (execve(args[0], args, environ) == -1)
 			{
 				perror("Error");
 				return (1);
