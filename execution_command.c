@@ -26,3 +26,14 @@ int _execute_command(char **tokens, char **argv)
 		exit(0);
 																												}
 	}
+		else
+		{
+		waitpid(child, &status, 0);
+		for (i = 0; tokens[i]; i++)
+		{
+		free(tokens[i]), tokens[i] = NULL;
+	}
+		free(tokens);
+	}
+	return (WEXITSTATUS(status));
+}
