@@ -6,7 +6,7 @@
  * as its command-line arguments.
  * Return: On success, return 0, on error -1 is returned
  */
-int _execute(char **tokens, char **argv)
+int _add(char **tokens, char **argv)
 {
 	int status = 0, i = 0;
 	pid_t child;

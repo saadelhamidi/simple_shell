@@ -10,7 +10,7 @@
 #include <string.h>
 #include<fcntl.h>
 extern char **environ;
-int _execute(char **tokens, char **argv);
+int _add(char **tokens, char **argv);
 char **split_line(char *input_line);
 char *read_command(void);
 
