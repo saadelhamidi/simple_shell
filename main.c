@@ -11,7 +11,7 @@ int main(int ac, char **argv)
 	(void)ac;
 	for (;;)
 	{
-		command = read_command();
+		command = read_inp();
 		if (command == NULL)
 		{
 			if (isatty(STDIN_FILENO))
