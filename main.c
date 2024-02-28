@@ -1,10 +1,7 @@
 #include "shell.h"
-/**
- * main - main function
- * @ac : arg count
- * @argv : arg vector
- * Return: 0 always.
- */
+/** * main: the primary function *
+ * @ac: the number of arguments @argv: arg vector
+ * * Return: 0 in all cases.*/
 int main(int ac, char **argv)
 {
 	char *command = NULL;
