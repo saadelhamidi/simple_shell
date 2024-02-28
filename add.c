@@ -1,5 +1,8 @@
 #include"shell.h"
-/** * _execute_command: function that runs the program that (path) references. @tokens: executable array. * @argv: an array of pointers to strings that are sent as command-line arguments to the new program. Return: 0 is returned upon success, -1 is returned upon error */
+/** * _execute_command: function that runs the program that (path) references
+ * . @tokens: executable array.
+ *  * *  @argv: an array of pointers to strings that are sent as command-line arguments to the new program.
+ *   Return: 0 is returned upon success, -1 is returned upon error */
 
 int _execute_command(char **tokens, char **argv)
 {
