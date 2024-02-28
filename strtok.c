@@ -5,7 +5,7 @@
  * @input_line : the commands line.
  * Return: commands as tokens and NULL if it fails.
  */
-char **split_line(char *input_line)
+char **token_inp(char *input_line)
 {
 	char *token = NULL, *tmp = NULL, DELIM[] = " \t\n";
 	char **tokens = NULL;
@@ -14,7 +14,7 @@ char **split_line(char *input_line)
 	if (!input_line)
 		return (NULL);
 
-	tmp = strdup(input_line); /*Create a duplicate to avoid modifying the input*/
+	tmp = strdup(input_line); /*Create a duplicate to avoid the modifyin of the input*/
 	token = strtok(tmp, DELIM);
 	if (!token)
 	{

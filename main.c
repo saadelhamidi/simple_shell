@@ -20,7 +20,7 @@ int main(int ac, char **argv)
 			}
 			return (status);
 		}
-		tokens = split_line(command);
+		tokens = token_inp(command);
 		if (tokens == NULL)
 		{
 			continue;
