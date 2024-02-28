@@ -1,7 +1,7 @@
 #include"shell.h"
 /**
- * split_line - function that Breaks a string into a sequence
- * of tokens based on a specified delimiter.
+ * token_inp - function that Breaks a string into a sequence
+ * tokens based on a specified delimiter.
  * @input_line : the commands line.
  * Return: commands as tokens and NULL if it fails.
  */

@@ -1,9 +1,9 @@
 #include"shell.h"
 /**
- * read_command - read a command from the stdin.
- * line_check - function that check for spaces.
+ * read_inp - read a command from the stdin.
+ * line_check - function this check for spaces.
  * command: void.
- * Return: 0 foound a character, 1 Null line.
+ * Return: 0 found a character, 1 Null line.
  */
 char *read_inp(void)
 {

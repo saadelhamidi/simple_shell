@@ -1,8 +1,6 @@
 #include"shell.h"
 /**
- * _getenv - function that searches  the environment list to
-  * find the environment variable info, and returns a pointer to
-  * the corresponding value string.
+ * _getenv - function that searches  the environment list to find the environment variable info, and returns the pointer to the corresponding value string.
  * @info: the environment variable info.
  * Return: a pointer to the corresponding value string.
  */

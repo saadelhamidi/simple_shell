@@ -3,7 +3,6 @@
  *
  * * main: the primary function
  * * @ac: the number of arguments 
- *
  * * @argv: arg vector 
  * * Return: 0 in all cases.*/
 
