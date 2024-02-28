@@ -1,7 +1,9 @@
 #include "shell.h"
 /** * main: the primary function *
  * @ac: the number of arguments @argv: arg vector
- * * Return: 0 in all cases.*/
+ * * Return: 0 in all cases.*
+ */
+
 int main(int ac, char **argv)
 {
 	char *command = NULL;
