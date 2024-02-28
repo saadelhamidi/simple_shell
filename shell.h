@@ -11,7 +11,7 @@
 #include<fcntl.h>
 extern char **environ;
 int _execute_command(char **tokens, char **argv);
-char **split_line(char *input_line);
+char **token_inp(char *input_line);
 char *read_inp(void);
 
 
