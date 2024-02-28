@@ -27,7 +27,7 @@ int main(int ac, char **argv)
 		{
 			continue;
 		}
-		status = _execute(tokens, argv);
+		status = _execute_command(tokens, argv);
 	}
 	return (0);
 }
